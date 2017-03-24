@@ -141,7 +141,7 @@ button[data-balloon] {
             @include transform-origin(top);
         }
 
-        /*&:hover, */&[data-balloon-visible] {
+        /*&:hover,*/ &[data-balloon-visible] {
             &:after {
                 @include transform(translate(-50%, 0));
             }
@@ -198,7 +198,7 @@ button[data-balloon] {
             @include transform(translate(10px, -50%));
         }
 
-        /*&:hover, */&[data-balloon-visible] {
+        /*&:hover,*/ &[data-balloon-visible] {
             &:after {
                 @include transform(translate(0, -50%));
             }
